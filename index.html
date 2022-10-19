@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puppet show</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="overlay-navigation">
+        <nav role="navigation">
+          <ul>
+            <li></li>
+            <li><a href="#" data-content="計畫說明">延‧藝</a></li>
+            <li><a href="#" data-content="如果歷史成了一臺戲">西田社特展</a></li>
+            <li><a href="#" data-content="演．譯">演．譯</a></li>
+            <li></li>
+          </ul>
+        </nav>
+      </div>
+      
+    <section class="home">
+        <div class="bg">
+        <!--     <img src="http://4.bp.blogspot.com/-8rAtlnlYeeg/T5S3nE4buQI/AAAAAAAABEE/jUYolUsCTsI/s1600/p_01.JPG" alt=""> -->
+            <!-- <img src="https://pbs.twimg.com/media/E9a7jeGWYAAslLA?format=jpg&name=large" alt=""> -->
+        <!--     <img src="https://i.imgur.com/l2ik0Ut.jpg" alt=""> -->
+            <div class="full">
+                <div class="fullimg img01"></div>
+                <div class="fullimg img02"></div>
+                <div class="fullimg img03"></div>
+                <div class="fullimg img04"></div>
+                <div class="fullimg img05"></div>
+                <div class="fullimg img06"></div>
+                <div class="fullimg img07"></div>
+                <div class="fullimg img08"></div>
+                <div class="fullimg img09"></div>
+            </div>
+        
+        
+        </div>
+        <div class="open-overlay">
+            <span class="bar-top"></span>
+            <span class="bar-middle"></span>
+            <span class="bar-bottom"></span>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/style.js"></script>
+    <script>
+        $(document).on('ready', function() {
+            $(".full").slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                speed: 1500,
+                fade: true,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                pauseOnDotsHover: false,
+            });
+        });
+    </script>
+</body>
+</html>
