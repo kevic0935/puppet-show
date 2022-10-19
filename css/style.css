@@ -11,31 +11,31 @@ html, body {
   text-decoration: none;
 }
 .full .fullimg.img01 {
-  background-image: url(/img/front_page_001.jpg);
+  background-image: url(../img/front_page_001.jpg);
 }
 .full .fullimg.img02 {
-  background-image: url(/img/front_page_002.jpg);
+  background-image: url(../img/front_page_002.jpg);
 }
 .full .fullimg.img03 {
-  background-image: url(/img/front_page_003.jpg);
+  background-image: url(../img/front_page_003.jpg);
 }
 .full .fullimg.img04 {
-  background-image: url(/img/front_page_004.jpg);
+  background-image: url(../img/front_page_004.jpg);
 }
 .full .fullimg.img05 {
-  background-image: url(/img/front_page_005.jpg);
+  background-image: url(../img/front_page_005.jpg);
 }
 .full .fullimg.img06 {
-  background-image: url(/img/front_page_006.jpg);
+  background-image: url(../img/front_page_006.jpg);
 }
 .full .fullimg.img07 {
-  background-image: url(/img/front_page_007.jpg);
+  background-image: url(../img/front_page_007.jpg);
 }
 .full .fullimg.img08 {
-  background-image: url(/img/front_page_008.jpg);
+  background-image: url(../img/front_page_008.jpg);
 }
 .full .fullimg.img09 {
-  background-image: url(/img/front_page_009.jpg);
+  background-image: url(../img/front_page_009.jpg);
 }
 .full .slick-dots {
 	bottom: 4%;
