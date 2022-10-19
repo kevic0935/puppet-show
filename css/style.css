@@ -371,14 +371,20 @@ Animation keyframes
   font-family: "Work Sans", sans-serif;
   color: #fff;
   font-weight: 700;
-  font-size: 24px;
+  /* font-size: 24px; */
   text-transform: uppercase;
   text-decoration: none;
-  position: absolute;
+  /* position: absolute; */
   z-index: 10;
-  top: 50px;
-  left: 50px;
+  /* top: 50px;
+  left: 50px; */
   padding-bottom: 3px;
+  position: fixed;
+  top: 35%;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 @media (max-width: 640px) {
