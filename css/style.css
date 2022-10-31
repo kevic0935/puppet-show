@@ -257,7 +257,35 @@ Burger king
   -webkit-animation: animate-out-middle-bar .6s linear 1 both;
   animation: animate-out-middle-bar .6s linear 1 both
 }
-
+.open-link {
+  position: fixed;
+  width: 100px;
+  right: 10px;
+  bottom: 10%;
+}
+.open-link a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.open-link a .link-yt {
+  color: #CC0000;
+}
+.open-link a .link-yt:hover {
+  opacity: 0.8;
+}
+.open-link a .link-lang {
+  color: #000000;
+}
+.open-link a .link-lang:hover {
+  opacity: 0.8;
+}
 
 /* ====================================
 Animation keyframes
