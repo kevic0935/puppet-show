@@ -16,7 +16,7 @@ html {
 
 body {
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 body:not(.is-IE) #intro-page.baodao .bg-photo {
   background-attachment: fixed;
@@ -147,7 +147,7 @@ img {
   z-index: 1;
   text-align: center;
   line-height: 38px;
-  color: #e63a39;
+  color: #fff;
   font-size: 15px;
   display: block;
   text-decoration: none;
@@ -155,7 +155,7 @@ img {
 .year-head:hover,
 .year-head:active {
   text-decoration: none;
-  color: #e63a39;
+  color: #fff;
 }
 .year-head .circle-year {
   text-align: right;
@@ -236,7 +236,7 @@ img {
   color: #fff;
 }
 .paint-pager.paint-pager__orange {
-  color: #e63a39;
+  color: #fff;
 }
 .paint-pager.paint-pager__orange:hover,
 .paint-pager.paint-pager__orange:focus {
@@ -244,7 +244,7 @@ img {
 }
 .paint-pager.paint-pager__orange .paint-pager-header:after {
   display: none;
-  background-color: #e63a39;
+  background-color: #fff;
 }
 .paint-pager.paing-pager_short {
   width: 120px;
@@ -1455,7 +1455,7 @@ body.nav-open #header .navbar-toggler span.line:last-child {
 }
 .year-sec .year-heading {
   padding: 30px 0;
-  color: #e63a39;
+  color: #fff;
 }
 .year-sec .year-heading .year-heading-big {
   font-weight: 300;
@@ -1487,7 +1487,7 @@ body.nav-open #header .navbar-toggler span.line:last-child {
   position: absolute;
   display: block;
   pointer-events: none;
-  background: #263837;
+  background: #747474;
   height: 100%;
   width: 1px;
   left: 18px;
@@ -1520,9 +1520,9 @@ body.nav-open #header .navbar-toggler span.line:last-child {
   top: 0px;
   text-align: center;
   line-height: 38px;
-  color: #e63a39;
+  color: #fff;
   font-size: 15px;
-  background: #e63a39;
+  background: #fff;
   height: 10px;
   border-radius: 10px;
   left: -1px;
@@ -1557,7 +1557,7 @@ body.nav-open #header .navbar-toggler span.line:last-child {
   color: #575757;
 }
 .intro-timeline .multiple-content .nav-link.active {
-  color: #e63a39;
+  color: #fff;
 }
 .intro-timeline .multiple-content .tab-content {
   margin: 20px auto;
@@ -2220,7 +2220,7 @@ body#body-watch {
 #watch-page .fix-buttons button.taiwan-btn.active,
 #watch-page .fix-buttons button.zoom-btn.active,
 #watch-page .fix-buttons button.leave-btn.active {
-  background-color: #e63a39;
+  background-color: #fff;
 }
 #watch-page .fix-buttons button.taiwan-btn {
   background-image: url("../img/watch_demo/pin_add.png");
@@ -2325,7 +2325,7 @@ body#body-watch {
 }
 #intro-page .scrollspy-menu .list-group-item {
   border-radius: 0;
-  color: #000000;
+  color: #fff;
   font-size: 12px;
   text-align: right;
   border-right: 4px solid #fff;
@@ -2343,7 +2343,7 @@ body#body-watch {
   }
 }
 #intro-page .scrollspy-menu .list-group-item.active {
-  border-color: #e63a39;
+  border-color: #fff;
 }
 @media (min-width: 1280px) {
   #intro-page .scrollspy-menu .list-group-item:first-of-type {
@@ -2356,7 +2356,7 @@ body#body-watch {
 
 #intro-page.baodao {
   /* background-image: url("../img/intro/8_bg.png"); */
-  background-color: #b0a17e;
+  background-color: #2C363A;
   height: calc(100% - 80px);
 }
 #intro-page.baodao .year-sec {
@@ -2385,7 +2385,7 @@ body#body-watch {
     width: 1px;
     left: 50%;
     height: calc(100% - 110px);
-    background: #e63a39;
+    background: #fff;
     top: 60px;
   }
 }
@@ -2397,7 +2397,7 @@ body#body-watch {
 }
 #intro-page.baodao .bg-photo {
   /* background-image: url("../img/intro/bg_photo.png"); */
-  background-color: #555;
+  background-color: #1a2124;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -2463,7 +2463,7 @@ body#body-watch {
 
 #intro-page.eight_scenic {
   /* background-image: url("../img/intro/8_bg.png"); */
-  background-color: #b0a17e;
+  background-color: #2C363A;
   overflow: hidden;
   /*.pic-fix-bottom-top {
       margin-bottom: 50px;
@@ -2702,7 +2702,7 @@ body#body-watch {
 
 #media-page {
   /* background-image: url("../img/intro/8_bg.png"); */
-  background-color: #b0a17e;
+  background-color: #2C363A;
 }
 #media-page .media-link {
   display: block;
@@ -2810,14 +2810,14 @@ body#body-watch {
   }
 }
 #media-page .media-link .custom-field .essense-btn {
-  background-color: #e63a39;
+  background-color: #fff;
 }
 #media-page .media-link .custom-field .essense-btn:hover,
 #media-page .media-link .custom-field .essense-btn:active {
   background-color: #4d807c;
 }
 #media-page .media-link .custom-field .dictation-btn {
-  background-color: #b0a17e;
+  background-color: #2C363A;
 }
 #media-page .media-link .custom-field .dictation-btn:hover,
 #media-page .media-link .custom-field .dictation-btn:active {
@@ -2979,7 +2979,7 @@ html.lb-disable-scrolling {
   background-repeat: repeat;
   background-position: center;
   /* background-image: url("../img/intro/8_bg.png"); */
-  background-color: #b0a17e;
+  background-color: #2C363A;
 }
 @media (max-width: 767px) {
   #not-found-page {
@@ -3012,7 +3012,7 @@ html.lb-disable-scrolling {
   background-repeat: repeat;
   background-position: center;
   /* background-image: url("../img/intro/8_bg.png"); */
-  background-color: #b0a17e;
+  background-color: #2C363A;
 }
 @media (max-width: 767px) {
   #server-error-page {
