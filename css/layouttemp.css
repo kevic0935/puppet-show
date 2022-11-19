@@ -164,7 +164,7 @@ background-image: url(../img/background/home-page-img-item-7.jpg);
 
 
 /* 1.8. works IMG carousel IMG BACKGROUND */
-.works-page-img-carousel-item-1 {		
+/* .works-page-img-carousel-item-1 {		
 background-image: url(../img/works/works-page-img-carousel-item-1.jpg);
 }
 
@@ -210,7 +210,7 @@ background-image: url(../img/works/works-page-img-carousel-item-11.jpg);
 
 .works-page-img-carousel-item-12 {		
 background-image: url(../img/works/works-page-img-carousel-item-12.jpg);
-}
+} */
 
 
 /* 1.9. about IMG BACKGROUND */
@@ -2031,7 +2031,7 @@ background: #000;
 .about-content .about-content-inner {
 position: relative;
 width: 100%;
-padding: 0 200px;
+padding: 0 10%;
 text-align: center;
 }
 
@@ -3709,6 +3709,19 @@ text-transform: uppercase;
 line-height: 1;
 letter-spacing: 0.05em;
 text-decoration: none;
+}
+nav.navigation-menu ul.list-menu {
+  padding: 10px 0 0 0;
+}
+
+nav.navigation-menu ul.list-menu a {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-decoration: none;
+  color: #aba9ff;
 }
 
 @media only screen and (max-width: 880px) {
