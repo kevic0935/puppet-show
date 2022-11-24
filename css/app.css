@@ -2401,7 +2401,7 @@ body#body-watch {
 }
 #intro-page.baodao .bg-photo {
   /* background-image: url("../img/intro/bg_photo.png"); */
-  background-color: #1a2124;
+  /* background-color: #1a2124; */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
