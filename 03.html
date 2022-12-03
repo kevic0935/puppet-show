@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="css/plugins.css" >
     <link rel="stylesheet" href="css/layouttemp.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .white-popup {
+            position: relative;
+            background: #FFF;
+            padding: 20px;
+            width: auto;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body>
     <a class="logo logo-light" href="index.html">
@@ -221,15 +231,15 @@
                                             <div class="testimonials-signature">
                                                 小西園掌中劇團第二代 團長
                                             </div>
-                                            <a href="#0" class="cd-popup-trigger c-btn inverse ">open</a>
+                                            <a href="#test-popup" class="open-popup-link ">open</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cd-popup" role="alert">
-                        <div class="cd-popup-container">
+                    <div class="white-popup mfp-hide" id="test-popup">
+                        <div>
                         <h3>傳藝未完成，誓願老不休</h3>
                                 <h5>國家雙認證的人間國寶藝師</h5>
                             <p>
@@ -248,6 +258,7 @@
                             <a href="#0" class="cd-popup-close img-replace">Close</a>
                         </div>
                     </div>
+                
                 </div>
             </div>
         </div>
@@ -596,31 +607,6 @@
         
     </div>
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script>
-        jQuery(document).ready(function($){
-            //open popup
-            $('.cd-popup-trigger').on('click', function(event){
-                event.preventDefault();
-                $('.cd-popup').addClass('is-visible');
-                console.log($('.cd-popup').addClass('is-visible'));
-            });
-            
-            //close popup
-            $('.cd-popup').on('click', function(event){
-                if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
-                    event.preventDefault();
-                    $(this).removeClass('is-visible');
-                }
-            });
-            //close popup when clicking the esc keyboard button
-            $(document).keyup(function(event){
-                if(event.which=='27'){
-                    $('.cd-popup').removeClass('is-visible');
-                }
-            });
-        });
-    </script>
     <script src="js/plugins.js"></script> 
     <script src="js/the-dive-the-template.js"></script>
     <script>
@@ -633,6 +619,10 @@
             autoScrolling: true,
             scrollBar: false,
             afterResponsive: function(isResponsive) {}
+        });
+        $('.open-popup-link').magnificPopup({
+            type:'inline',
+            midClick: true
         });
     </script>
 </body>

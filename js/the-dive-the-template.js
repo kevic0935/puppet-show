@@ -305,37 +305,37 @@ $(function() {
     // updated: now you can add Vimeo videos via HTML file
 	
     // 9. fullPage
-    $("#fullpage").fullpage({
-        anchors: ["home", "about", "works", "services", "news", "contact"],
-        navigation: true,
-        navigationPosition: "left",
-        navigationTooltips: ["Home", "About", "Works", "Services", "News", "Contact"],
-        responsiveWidth: 900,
-        autoScrolling: true,
-        scrollBar: false,
-        afterResponsive: function(isResponsive) {}
-    });
+    // $("#fullpage").fullpage({
+    //     anchors: ["home", "about", "works", "services", "news", "contact"],
+    //     navigation: true,
+    //     navigationPosition: "left",
+    //     navigationTooltips: ["Home", "About", "Works", "Services", "News", "Contact"],
+    //     responsiveWidth: 900,
+    //     autoScrolling: true,
+    //     scrollBar: false,
+    //     afterResponsive: function(isResponsive) {}
+    // });
 	
     // 10. magnificPopup
-    $(".popup-photo").magnificPopup({
-        type: "image",
-        gallery: {
-            enabled: true,
-            tPrev: "",
-            tNext: "",
-            tCounter: "%curr% / %total%"
-        },
-        removalDelay: 300,
-        mainClass: "mfp-fade"
-    });
-    $(".popup-youtube, .popup-vimeo").magnificPopup({
-        type: "iframe",
-        disableOn: 700,
-        preloader: false,
-        fixedContentPos: false,
-        removalDelay: 150,
-        mainClass: "mfp-fade"
-    });
+    // $(".popup-photo").magnificPopup({
+    //     type: "image",
+    //     gallery: {
+    //         enabled: true,
+    //         tPrev: "",
+    //         tNext: "",
+    //         tCounter: "%curr% / %total%"
+    //     },
+    //     removalDelay: 300,
+    //     mainClass: "mfp-fade"
+    // });
+    // $(".popup-youtube, .popup-vimeo").magnificPopup({
+    //     type: "iframe",
+    //     disableOn: 700,
+    //     preloader: false,
+    //     fixedContentPos: false,
+    //     removalDelay: 150,
+    //     mainClass: "mfp-fade"
+    // });
 	
     // 11. skills bar
     $(".show-skillbar").appear(function() {
