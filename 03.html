@@ -221,7 +221,7 @@
                                             <div class="testimonials-signature">
                                                 小西園掌中劇團第二代 團長
                                             </div>
-                                            <a href="#test-popup" class="open-popup-link c-btn inverse">
+                                            <a href="#test-popup" class="open-popup-link c-btn inverse" id="open_button">
                                                 <span>open</span>
                                             </a>
                                             
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="white-popup mfp-hide" id="test-popup">
+                    <div class="white-popup mfp-hide scrollable-content" id="test-popup">
                         <h3>傳藝未完成，誓願老不休</h3>
                         <h5>國家雙認證的人間國寶藝師</h5>
                         <p>
@@ -605,6 +605,7 @@
             navigation: true,
             navigationPosition: "left",
             navigationTooltips: ["authorneme0","authorneme1", "authorneme2", "authorneme3", "authorneme4", "authorneme5", "authorneme6"],
+            normalScrollElements: '.scrollable-content',
             responsiveWidth: 900,
             autoScrolling: true,
             scrollBar: false,
@@ -613,6 +614,22 @@
         $('.open-popup-link').magnificPopup({
             type:'inline',
             midClick: true
+        });
+    </script>
+    <script>
+        $('#open_button').magnificPopup({
+            type: 'inline',          // Custom settings, never mind
+            closeBtnInside: false,   // Custom settings, never mind
+            fixedContentPos: false,  // Custom settings, never mind
+            fixedBgPos: true,        // Custom settings, never mind
+            callbacks: {
+                open: function() {                        // When you open the
+                    $('body').css('overflow', 'hidden');  // window, the element
+                },                                        // "body" is used "overflow: hidden".
+                close: function() {                       // When the window
+                    $('body').css('overflow', '');        // is closed, the 
+                },                                        // "overflow" gets the initial value.
+            }
         });
     </script>
 </body>
