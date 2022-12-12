@@ -328,14 +328,14 @@ $(function() {
     //     removalDelay: 300,
     //     mainClass: "mfp-fade"
     // });
-    // $(".popup-youtube, .popup-vimeo").magnificPopup({
-    //     type: "iframe",
-    //     disableOn: 700,
-    //     preloader: false,
-    //     fixedContentPos: false,
-    //     removalDelay: 150,
-    //     mainClass: "mfp-fade"
-    // });
+    $(".popup-youtube, .popup-vimeo").magnificPopup({
+        type: "iframe",
+        disableOn: 700,
+        preloader: false,
+        fixedContentPos: false,
+        removalDelay: 150,
+        mainClass: "mfp-fade"
+    });
 	
     // 11. skills bar
     $(".show-skillbar").appear(function() {
