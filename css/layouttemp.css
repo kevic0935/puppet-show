@@ -3436,7 +3436,7 @@ z-index: 200;
 
 .logo-img:before {
 content: "";
-background: url(../img/logo-dark.png) no-repeat;
+background: url(../img/logo-light.png) no-repeat;
 display: block;
 width: 57px;
 height: 57px;
@@ -3879,7 +3879,7 @@ background: #fff;
 .main-menu.main-menu-dark:after,
 .main-menu.main-menu-dark span:before,
 .main-menu.main-menu-dark span:after {
-background: #444;
+background: #fff;
 }
 
 .main-menu.active:before {
