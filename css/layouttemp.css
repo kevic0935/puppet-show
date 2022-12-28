@@ -357,7 +357,7 @@ font-size: 14px;
 line-height: 1.5;
 font-style: normal;
 font-weight: 400;
-background: #111;
+background: #2C363A;
  -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 -webkit-text-size-adjust: 100%;
@@ -2025,7 +2025,7 @@ display: flex;
    -ms-flex-pack: center;
 -webkit-justify-content: center;
         justify-content: center;
-background: #000;
+background: #2C363A;
 }
 
 .about-content .about-content-inner {
