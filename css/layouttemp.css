@@ -1554,7 +1554,8 @@ height: 100px;
 }
 
 .testimonials-quote p {
-text-align: center;
+  text-align: center;
+  font-size: 16px;
 }
 
 .testimonials-signature {
@@ -2180,6 +2181,7 @@ border-left: 1px solid #555;
 
 .text-txt p {  
 line-height: 1.5;
+font-size: 16px;
 }
 
 .text-txt.text-txt-dark p {  
