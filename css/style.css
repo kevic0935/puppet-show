@@ -383,6 +383,7 @@ footer {
 }
 .dropdownmenu li:hover a {
 	background: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 #submenu {
 	left: 0;
