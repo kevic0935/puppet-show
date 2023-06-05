@@ -23,6 +23,63 @@
         .nanogallery_gallerytheme_dark_nanogallery2 .nGY2GThumbnail {
             background: #2C363A;
         }
+        /** navmenu **/
+        .navmenu {
+            overflow: hidden;
+            overflow-x: auto;
+            display: block;
+            height: 48px;
+            position: relative;
+            z-index: 3;
+            -webkit-overflow-scrolling: touch;
+            text-align: center;
+        }
+        .navmenu ul {
+            position: relative;
+            height: 25px;
+            margin: auto;
+            padding: 0;
+            white-space: nowrap;
+        }
+        .navmenu ul li {
+            display: inline-block;
+            margin-top: 10px;
+            border-right: 1px solid #333333;
+        }
+        .navmenu ul li:last-child {
+            border-right: 0;
+        }
+        .navmenu a {
+            padding: 1px 10px;
+            margin: 0 8px 0 4px;
+            letter-spacing: 1px;
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+        }
+        .navmenu a:hover {
+            text-decoration: revert;
+        }
+        .navmenu .bornone {
+            border-right: 0;
+        }
+        /* custom scrollbar */
+        .navmenu::-webkit-scrollbar {
+            width: 20px;
+        }
+        .navmenu::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        .navmenu::-webkit-scrollbar-thumb {
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 20px;
+            border: 6px solid transparent;
+            background-clip: content-box;
+        }
+        .navmenu::-webkit-scrollbar-thumb:hover {
+            background-color: #9c9c9c;
+        }
+        /** navmenu end **/
     </style>
 </head>
 <body>
@@ -88,6 +145,37 @@
 
 
     <div class="container-xl" style="padding-top: 100px;">
+        <div class="navmenu col-12">
+            <ul class="nav_u font_bold">
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+                <li>
+                <a href="#">布袋戲</a>
+                </li>
+            </ul>
+        </div>          
         <main id="main">
             <div id="nanogallery2"></div>
         </main>
