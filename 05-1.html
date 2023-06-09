@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文物展示牆</title>
+    <link rel="stylesheet" href="css/plugins.css" >
+    <link rel="stylesheet" href="css/layouttemp.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        body {
+            background: #2C363A;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .filtr-item { display: inline-block; 
+            width: 230px; 
+            padding: 10px;
+        }
+        .filtr-item a { color: #444; 
+            text-decoration: none;
+        }
+        .filtr-item img { 
+            width: 100%; 
+            height: 131px;
+            -webkit-filter:brightness(.7);
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+        }
+        .filtr-item img:hover { 
+            width: 100%; 
+            height: 131px;
+            -webkit-filter:brightness(1);
+            
+        }
+        .filtr-item span { 
+            display: block; 
+            margin-top: 5px; 
+            font-size: 16px; 
+            text-align: center; 
+            color: #fff;
+        }
+        .nav { 
+            width: 100%; 
+            margin: 0 auto 20px; 
+            text-align: center; 
+            font-size: 0;
+        }
+        .nav li { 
+            display: inline-block; 
+            margin: 0 5px; 
+            padding: 6px 20px; 
+            font-size: 14px; 
+            color: #fff; 
+            /* background-color: #ccc;  */
+            cursor: pointer;
+        }
+        .nav .active { 
+            color: #fff; 
+            background-color: #21b384;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a class="logo logo-light" href="index.html">
+        <div class="logo-img fadeIn-element"></div>
+    </a>
+    <div class="navigation-fire main-menu main-menu-light fadeIn-element">
+        <span></span>
+    </div>
+    <div class="dropdownmenu">
+        <ul>
+            <li>
+                <a href="05-1.html">文物精選</a>
+            </li>
+            <li>
+                <a href="05.html">文物展示牆</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navigation-menu">
+        <div class="center-container-menu">
+            <div class="center-block-menu">
+                <ul class="brackets">
+                    <li>
+                        <a class="menu-state" href="index.html">首頁</a>
+                    </li>
+                    <li>
+                        <a class="menu-state" href="02.html">延藝</a>
+                    </li>
+                    <li>
+                        <a class="menu-state" href="03.html">西田社特展</a>
+                        <ul class="list-menu">
+                            <li>
+                                <a class="" href="03.html">三分前場</a>
+                            </li>
+                            <li>
+                                <a class="" href="03-1.html">七分後場</a>
+                            </li>
+                            <li>
+                                <a class="" href="03-2.html">大事年表</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-state" href="404.html">演譯</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="open-link">
+        <a href="https://www.youtube.com/" target="_blank">
+            <div class="link-yt">
+                <i class="fab fa-youtube"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="link-lang">
+                <i class="fas fa-language"></i>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="container-xl" style="padding-top: 100px;">
+       
+        <main id="main">
+            <div class="row">
+                <div class="col-md-6">
+                  <ul class="nav">
+                    <li class="active" data-filter="all">all</li>
+                    <li data-filter="1">劇本</li>
+                    <li data-filter="2">布袋戲</li>
+                    <li data-filter="3">海報</li>
+                    <li data-filter="4">其他</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control keyword" data-search placeholder="請輸入關鍵字">
+                </div>
+              </div>
+              
+              <div class="row imageboxs">
+                
+                <div class="filtr-item" data-category="2">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_002.jpg" alt="">
+                          <span class="ss">布袋戲</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="1">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_006.jpg" alt="">
+                          <span>劇本</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="1">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_006.jpg" alt="">
+                          <span>劇本1</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="3">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_003.jpg" alt="">
+                          <span>海報</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="1">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_006.jpg" alt="">
+                          <span>劇本2</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="2">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_002.jpg" alt="">
+                          <span>布袋戲2</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="1">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_006.jpg" alt="">
+                          <span>劇本3</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="2">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_002.jpg" alt="">
+                          <span>布袋戲3</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="2">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_002.jpg" alt="">
+                          <span>布袋戲4</span>
+                      </a>
+                  </div>
+                  <div class="filtr-item" data-category="2">
+                      <a href="05-2.html" target="_blank">
+                          <img src="img/front_page_002.jpg" alt="">
+                          <span>布袋戲5</span>
+                      </a>
+                  </div>
+              </div>
+              
+        </main>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/plugins.js"></script> 
+    <script src="js/the-dive-the-template.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
+    <script>
+        $(function() {
+            $('.imageboxs').filterizr();
+
+            $('.nav li').on('click', function() {
+                $(this).toggleClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
