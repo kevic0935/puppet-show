@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
-    
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    
     <style>
         html, body {
             margin: 0;
@@ -424,6 +425,11 @@
         </div>  
     </div>
 
+
+    <a href="data:text/html,<p>Some HTML</p>" data-fancybox data-type="iframe">
+        Dynamic iframe content
+      </a>
+
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/style.js"></script>
     <script src="js/plugins.js"></script> 
@@ -453,6 +459,14 @@
                 $( this ).addClass('is-checked');
             });
         });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+    Fancybox.bind("[data-fancybox]", {
+        //
+    }) 
     </script>
 
 
