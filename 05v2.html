@@ -326,17 +326,26 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script>
-    document.getElementById("triggger").addEventListener("click", () => {
-        Fancybox.show([
-            {
-                src: "iframepage.html",
-                type: "iframe",
-                preload: false,
-                width: 1000,
-            },
-        ]);
-    });  
+        document.getElementById("triggger").addEventListener("click", () => {
+            Fancybox.show([
+                {
+                    src: "iframepage.html",
+                    type: "iframe",
+                    preload: false,
+                    width: 1000,
+                    thumb: "img/front_page_002.jpg",
+                },{
+                    src: "iframepage2.html",
+                    type: "iframe",
+                    preload: false,
+                    width: 1000,
+                    thumb: "img/front_page_003.jpg",
+                },
+                
+            ]);
+        });
     </script>
+
 
 
 
